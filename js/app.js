@@ -126,15 +126,16 @@ console.log(formats)
   
   // Exercise 9:  Using the talkingHeadsAlbums array, assign album7's released property to album6's released property
   
-  talkingHeadsAlbums[6] = album7.albumDetails.released
+  talkingHeadsAlbums[6] = album6.albumDetails.released
   console.log(talkingHeadsAlbums)
   
   
   // Exercise 10:  Using the pre-defined variable named albumIdx below, assign the albumDetails object of the album located within the talkingHeadsAlbums array at the index represented by the value of albumIdx to a variable named albumDetails
   
   let albumIdx = 4;
-  
-  
+  // using talkingHeadsAlbums 4 which is 3 in array 
+  const albumDetails = talkingHeadsAlbums[3]
+  console.log(albumDetails)
   
   
   /********** Don't look below here **********/
